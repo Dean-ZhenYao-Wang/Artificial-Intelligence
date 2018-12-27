@@ -37,5 +37,30 @@ namespace ShadesOfGray
                 .Select(obs => Score(obs, classifier))
                 .Average();
         }
+        /// <summary>
+        /// 评估
+        /// </summary>
+        /// <param name="validataionSet">验证数据集</param>
+        /// <param name="classifier">分类器</param>
+        /// <returns>平均准确率</returns>
+        public static double Correct(IEnumerable<Observation> validataionSet, FunctionalExample classifier)
+        {
+            return validataionSet
+                .Select(obs => Score(obs, classifier))
+                .Average();
+        }
+        /// <summary>
+        /// 准确率计算
+        /// </summary>
+        /// <param name="obs">验证对象</param>
+        /// <param name="classifier">分类器</param>
+        /// <returns>准确率</returns>
+        private static double Score(Observation obs, FunctionalExample classifier)
+        {
+            if (classifier.Predict(obs.Pixels) == obs.Label)
+                return 1.0;
+            else
+                return 0.0;
+        }
     }
 }
