@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShadesOfGray", "ShadesOfGra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpamOrHam", "SpamOrHam\SpamOrHam.csproj", "{08D2FCAF-15AC-4B3A-8482-F0FE616E5520}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NaiveBayes", "NaiveBayes\NaiveBayes.csproj", "{DDC88B20-AF75-4572-B22A-3A04A1BC9E24}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{08D2FCAF-15AC-4B3A-8482-F0FE616E5520}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08D2FCAF-15AC-4B3A-8482-F0FE616E5520}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08D2FCAF-15AC-4B3A-8482-F0FE616E5520}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDC88B20-AF75-4572-B22A-3A04A1BC9E24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDC88B20-AF75-4572-B22A-3A04A1BC9E24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDC88B20-AF75-4572-B22A-3A04A1BC9E24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDC88B20-AF75-4572-B22A-3A04A1BC9E24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
